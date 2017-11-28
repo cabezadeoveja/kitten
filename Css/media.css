@@ -1,0 +1,26 @@
+@media (min-width: 768px){
+	[class*="col-"]{
+		width: 100%;
+	}
+	.secondSection, .threeSection{
+		display: none;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+		[class*="col-"]{
+		width: 100%;
+	}
+	    .firstSection, .threeSection{
+    	display: none;
+    }
+}
+
+@media (max-width: 575px){
+		[class*="col-"]{
+		width: 100%;
+	}
+	    .firstSection, .secondSection{
+    	display: none;
+    }
+}

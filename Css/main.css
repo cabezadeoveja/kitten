@@ -1,0 +1,31 @@
+body{
+	margin: 0 auto;
+}
+
+.firstSection{
+	background-image: url(../Assets/sunny-day.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.catimg{
+	width: 100%;
+}
+
+.cat{
+	width: 40%;
+	margin-left: 25%;
+	margin-top: 25%;
+}
+
+.secondSection{
+	background-image: url(../Assets/night.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.threeSection{
+	background-image: url(../Assets/dawn.png);
+	background-size: cover;
+	height: 100vh;
+}
